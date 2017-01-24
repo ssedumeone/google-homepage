@@ -1,0 +1,60 @@
+
+
+
+
+
+/*Header  navigation bar*/
+
+.navright{
+
+}
+
+/*main search container */
+.main{
+
+}
+#Fixedheader{
+  position:fixed;
+	top:10px;
+	width:100%;
+  padding:20px;
+}
+
+#Signin{
+
+}
+
+#searchcont{
+
+}
+
+#searchform{
+
+}
+
+
+#formbtns{
+
+
+}
+#FixedFooter{
+  position:fixed;
+	bottom:0px;
+	width:100%;
+	padding:8px;
+	background-color: #f8f8f8;
+	color: #757575;
+	height: 30px;
+  display: inline-flex;
+}
+
+/*Footer stuff goes here*/
+
+.Footerleft{
+
+}
+
+
+.Footerright{
+
+}
