@@ -6,7 +6,21 @@
 /*Header  navigation bar*/
 
 .navright{
+  text-align: right;
+	font-size: 13px;
+	height: 50px;
+  font-family: Arial, sans-serif;
+  margin-right: 30px;
+}
 
+.navright li a {
+  display: inline-block;
+	width: 50px;
+	padding: 3px;
+#	text-align: center;
+  vertical-align: middle;
+  color: #000;
+  text-decoration: none;
 }
 
 /*main search container */
@@ -25,7 +39,7 @@
 }
 
 #searchcont{
-
+  vertical-align: middle;
 }
 
 #searchform{
@@ -38,23 +52,51 @@
 
 }
 #FixedFooter{
-  position:fixed;
-	bottom:0px;
-	width:100%;
-	padding:8px;
-	background-color: #f8f8f8;
-	color: #757575;
-	height: 30px;
-  display: inline-flex;
+  display: block;
+	line-height: 40px;
+	background: #f2f2f2;
+	height: 40px;
+	position: absolute;
+	width: 100%;
+	border-top: 1px solid #e4e4e4;
+	right: 0px;
+  bottom: 0px;
 }
 
 /*Footer stuff goes here*/
 
 .Footerleft{
+  text-align: left;
+	display: inline-block;
+	float: left;
+  margin-left: 3px;
+
+}
+.Footerleft li a {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+  color:#000;
+  font-size: 12px
 
 }
 
+.Footerright li a {
+  text-decoration: none;
+  color:#000;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+  font-size: 12px
+
+}
 
 .Footerright{
+  text-align: right;
+	display: inline-block;
+	float: right;
+  margin-right: 30px;
+  font-family: Arial, sans-serif;
 
 }

@@ -8,22 +8,25 @@
   <body>
     <div id="Fixedheader">
         <ul class="navright">
-              <li><a href="#Gmail">Gmail</a></li>
-              <li><a href="#Images">Images</a></li>
-              <li><a href="#Apps">Apps</a></li>
-              <li><div id="Signin">Sign in</div></li>
-         </ul>
+              <li><a id="gmail" href="#Gmail">Gmail</a></li>
+              <li><a id="images" href="#Images">Images</a></li>
+              <li><a id="apps" href="#Apps" <img src="images/gapps-icon.png" alt="Google Apps"></a></li>
+              <li><a id="signin" href="#Sign in">Signin</a></li>
+        </ul>
     </div>
 
-      <div id="searchcont">
-          <div class="main">
-                      <img src="images/google.png" alt="Google" style=width:389px;height:129px>
-                      <form id="searchform">
-                      <input type="search">
-                    <div id="formbtns">
-                          <button>Google Search</button>
-                          <button>I'm Feeling Lucky</button>
-                    </div>
+      <div class="gsearch">
+               <img id="logo" src="images/google.png" alt="Google" style=width:389px;height:129px>
+                      <div class="searchbar">
+                        <form action="Post">
+                        <input type="text" size="70" name="search">
+                      </div>
+                      <div class="formbtns" style="padding-top:17px">
+                        <center>
+                          <input value="Google Search" type="submit"></input>
+                          <input value="I'm Feeling Lucky" type="submit"></input>
+                        </center>
+                      </div>
       </div>
     <div id="Fixedfooter">
             <ul class="Footerleft">
