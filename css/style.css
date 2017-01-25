@@ -10,58 +10,42 @@
   height: 50px;
   margin-bottom: 8px;
 }
-.navheader .navright{
-  width: 2%;
-	height: 100%;
-	display: inline-block;
-	float: right;
-	position: relative;
-  min-width: 50px;
-
-}
-.navright a{
-	color: #000;
-	opacity: .75;
+.navheader a{
+  float: right;
 	text-decoration: none;
-	margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  font-family: arial,sans-serif;
-  font-size: 13px;
+	font-family: Arial;
+	margin-right: 21px;
+  margin-top: 8px;
+  color: #000;
 }
-/*main search container */
-.gsearch{
+/*main search container *
 
-}
+
 /*Search form*/
 
 .searchbar input[type=text] {
-    width: 40%;
-    padding: 12px 20px;
-    margin: 10px 0;
-    box-sizing: border-box;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
 
 }
 .cont{
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    min-width: 980px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  min-width: 980px;
 }
-#logo{
 
-}
 
 #body{
   display: block;
 }
 
 /*Just buttons*/
+
 .formbtns {
   margin-top: 10px;
   padding: 10px;
