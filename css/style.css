@@ -1,29 +1,39 @@
-
+/*CSS File made from research on google and the guys at Odin*/
 
 
 
 
 /*Header  navigation bar*/
 
-.navright{
-  text-align: right;
-	font-size: 13px;
-	height: 50px;
-  font-family: Arial, sans-serif;
-  margin-right: 30px;
-}
-.navright li a {
-  display: inline-block;
-	width: 50px;
-	padding: 3px;
-#	text-align: center;
-  vertical-align: middle;
-  color: #000;
-  text-decoration: none;
-}
 
+.navheader{
+  height: 50px;
+  margin-bottom: 8px;
+}
+.navheader .navright{
+  width: 2%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+	position: relative;
+  min-width: 50px;
+
+}
+.navright a{
+	color: #000;
+	opacity: .75;
+	text-decoration: none;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
 /*main search container */
-.main{
+.gsearch{
 
 }
 /*Search form*/
@@ -35,96 +45,102 @@
     box-sizing: border-box;
 
 }
-
+.cont{
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    min-width: 980px;
+}
 #logo{
 
 }
 
-
-#Fixedheader{
-
+#body{
+  display: block;
 }
 
-#signin{
-
-}
-#gmail{
-
-}
-#images{
-
-}
-#apps{
-
+/*Just buttons*/
+.formbtns {
+  margin-top: 10px;
+  padding: 10px;
 }
 
-
-#gsearch{
-
-}
-
-
-#formbtns{
-  height:36px;
-	line-height: 27px;
-	border: 1px solid #f2f2f2;
-	background-color: #f2f2f2
-	border-radius:2px;
-	color: #757575;
-	font-family: arial, sans-serif;
-	font-size: 13px;
-	font-weight: bold;
-	margin: 11px 4px
-	min-width: 54px;
-	padding: 0 16px;
-	text-align: center;
-	align-items: flex-start;
-display: inline-block;
-
-}
-#Fixedfooter{
-  bottom: 0;
-  font-size: 12pt;
-  width: 100%;
-  height: 35px;
-  position: absolute;
-
+.formbtns input {
+  padding: 10px 15px;
+  margin-left: 3px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #757575;
 }
 
 /*Footer stuff goes here*/
 
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  height: 40px;
+}
+
 .Footerleft{
-  text-align: left;
-	display: inline-block;
-	float: left;
-  margin-left: 3px;
-
+  height: 100%;
+	width: 50%;
+	position: relative;
+  float: left;
 }
-.Footerleft li a {
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  font-family: Arial, sans-serif;
-  color:#000;
-  font-size: 12px
-
-}
-
-.Footerright li a {
-  text-decoration: none;
-  color:#000;
-  text-align: center;
-  vertical-align: middle;
-  font-family: Arial, sans-serif;
-  font-size: 12px
-
-}
-
 .Footerright{
-  text-align: right;
+  height: 100%;
+	width: 50%;
+	position: relative;
+  float: right;
+}
+.bottoml{
+  width: 5%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  position: relative;
+  min-width: 50px;
+  padding-left: 30px;
+}
+.bottoml a{
+  color: #757575;
+	opacity: .75;
+	text-decoration: none;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+.bottomr{
+  width: 5%;
+	height: 100%;
 	display: inline-block;
 	float: right;
-  margin-right: 30px;
-  font-family: Arial, sans-serif;
-
+	position: relative;
+	min-width: 50px;
+  padding-right: 30px;
+}
+.bottomr a{
+  color: #757575;
+	opacity: .75;
+	text-decoration: none;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  font-family: arial,sans-serif;
+  font-size: 13px;
 }
