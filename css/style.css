@@ -12,7 +12,6 @@
   font-family: Arial, sans-serif;
   margin-right: 30px;
 }
-
 .navright li a {
   display: inline-block;
 	width: 50px;
@@ -27,40 +26,69 @@
 .main{
 
 }
+/*Search form*/
+
+.searchbar input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+
+}
+
+#logo{
+
+}
+
+
 #Fixedheader{
-  position:fixed;
-	top:10px;
-	width:100%;
-  padding:20px;
-}
-
-#Signin{
 
 }
 
-#searchcont{
-  vertical-align: middle;
+#signin{
+
+}
+#gmail{
+
+}
+#images{
+
+}
+#apps{
+
 }
 
-#searchform{
+
+#gsearch{
 
 }
 
 
 #formbtns{
-
+  height:36px;
+	line-height: 27px;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2
+	border-radius:2px;
+	color: #757575;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+	align-items: flex-start;
+display: inline-block;
 
 }
-#FixedFooter{
-  display: block;
-	line-height: 40px;
-	background: #f2f2f2;
-	height: 40px;
-	position: absolute;
-	width: 100%;
-	border-top: 1px solid #e4e4e4;
-	right: 0px;
-  bottom: 0px;
+#Fixedfooter{
+  bottom: 0;
+  font-size: 12pt;
+  width: 100%;
+  height: 35px;
+  position: absolute;
+
 }
 
 /*Footer stuff goes here*/
